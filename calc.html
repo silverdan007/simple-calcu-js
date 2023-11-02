@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="body">
+        <div class="across display">
+            <div id="display"></div>
+            <!-- <input id="display" type="text" class="display" disabled placeholder="0"> -->
+        </div>
+        <div class="across">
+            <div class="button" onclick="display1()"><span id="one">1</span></div>
+            <div class="button" onclick="display2()"><span>2</span></div>
+            <div class="button" onclick="display3()"><span>3</span></div>
+            <div class="button" onclick="display1()"><span>x</span></div>
+        </div>
+        <div class="across">
+            <div class="button" onclick="display4()"><span>4</span></div>
+            <div class="button" onclick="display5()"><span>5</span></div>
+            <div class="button" onclick="display6()"><span>6</span></div>
+            <div class="button" onclick="display()"><span>/</span></div>
+        </div>
+        <div class="across">
+            <div class="button" onclick="display7()"><span>7</span></div>
+            <div class="button" onclick="display8()"><span>8</span></div>
+            <div class="button" onclick="display9()"><span>9</span></div>
+            <div class="button" onclick="add()" ><span>+</span></div>
+        </div>
+        <div class="across">
+            <div class="button" onclick="displaydec()"><span>.</span></div>
+            <div class="button" onclick="display0()"><span>0</span></div>
+            <div class="button" onclick="clearEntry()"><span id="ce">CE</span></div>
+            <div class="button" onclick="sub()"><span>-</span></div>
+        </div>
+
+    </div>
+
+<div id="er"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
